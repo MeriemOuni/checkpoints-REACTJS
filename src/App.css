@@ -1,38 +1,102 @@
-.App {
+.navi {
+background-color: #4590ba;
+  color: white;
+  font-weight: bold;
+}
+
+.mr-auto{
+  justify-content: center;
+}
+
+
+.logo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 3px;
+  font-size: 64px;
+}
+
+.d-block {
+  height: 530px;
+}
+.carous {
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: black;
+  font-size: 50px;
+}
+
+p {
+  color: black;
+
+}
+
+.intro {
+  height: 300px;
+  background-image: url(http://www.bluewaveshotel.gr/wp-content/themes/cdbthm/includes/cdb_theme_options/textures/green-fibers.png);
+  margin-bottom: 50px;
+}
+
+.titre {
+  
+  font-family: 'AC Geosans Light', sans-serif;  
+  text-align: center;
+  font-size: 40px;
+  padding: 2%;
+  font-weight: 300;
+  color: grey;
+  letter-spacing: 5px;
+}
+
+.parg {
+  text-align:center;
+  width: 80%;
+  margin:auto;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+
+.Cards {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.imcard {
+  height: 400px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.cardbody{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardbut {
+  margin-left: 130px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.forms {
+  margin: auto;
+  width: 80%;
+  margin-top: 100px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer {
+  height: 300px;
+  margin-top: 50px;
+  background-image: url(http://www.bluewaveshotel.gr/wp-content/themes/cdbthm/includes/cdb_theme_options/textures/green-fibers.png);
+  text-align: center;
+  padding:20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer p{
+  margin-top: 100px;
 }
